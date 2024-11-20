@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    int x;
+    scanf("%d",&x);
+    printf("no of seats in each row=%d",108/x);
+
+ }
