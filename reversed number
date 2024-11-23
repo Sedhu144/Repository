@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+    int n,rnum=0,remain;
+    scanf("%d",&n);
+    int orgnum =n;
+    while (n!=0)
+    {
+        remain =n%10;
+        rnum=rnum*10+remain;
+        n/=10;
+    }
+    
+    printf("the reversed num:%d",rnum);
+}
+
