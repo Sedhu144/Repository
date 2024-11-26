@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    
+    int n,copy,sum=0;
+    printf("enter a num: ");
+    scanf("%d",&n);
+    
+    copy=n;
+    while(copy>0)
+    {
+        sum=sum*10;
+        sum=sum+(copy%10);
+        copy/=10;
+    }
+    if(sum==n)
+    {
+        printf("palindrome");
+    }
+    else
+    {
+        printf("not a palindrome");
+    }
+
+    return 0;
+}
