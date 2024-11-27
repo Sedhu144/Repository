@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+    int arr[50],i,num,sum=0;
+    printf("enter the num of elements in the array:\n");
+    scanf("%d",&num);
+    printf("enter %d elements",num);
+    printf("arr[i]",i);
+        scanf("%d",&arr[i]);
+    
+    for(i=0;i<num;i++)
+    {
+        sum=sum+arr[i];
+    }
+    printf("sum is %d",sum);
+    
+}
