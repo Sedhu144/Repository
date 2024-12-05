@@ -1,0 +1,26 @@
+#include<stdio.h>
+void main()
+{
+    int arr[50],i,j,max,min;
+    printf("enter the numbers:");
+    for(i=0;i<3;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    max=arr[0];
+    min=arr[0];
+    for(j=0;j<3;j++)
+    {
+       if(max<arr[j])
+       {
+           max=arr[j];
+       }
+       if(min>arr[j])
+       {
+           min=arr[j];
+       }
+    }
+    
+    printf("largest num is %d\n",max);
+    printf("smallest num is %d",min);
+}
