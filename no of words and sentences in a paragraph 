@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include<ctype.h>
+int main() {
+    char para[1000];
+    int words=2,sent=0,i;
+    printf("enter your paragraph : ");
+    scanf("%[^\n]",&para[i]);
+    for(i=0;para[i];i++)
+    {
+        if(para[i]==' ')
+        {
+            words++;
+        }
+        if(para[i]=='.')
+        {
+            sent++;
+        }
+        
+    }
+    printf("no of words= %d \n",words);
+    printf("no of sentences= %d",sent);
+    return 0;
+}
